@@ -1,0 +1,30 @@
+{
+  "HomePage": {
+    "title": "Hallo Welt!",
+    "languageLabel": "Sprache"
+  },
+  "Auth": {
+    "signInTitle": "Willkommen zurück",
+    "signInDescription": "Melde dich in deinem Arbeitsbereich an.",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "du@firma.de",
+    "password": "Passwort",
+    "passwordPlaceholder": "Gib dein Passwort ein",
+    "signInButton": "Anmelden",
+    "invalidCredentials": "Ungültige E-Mail-Adresse oder ungültiges Passwort.",
+    "signOut": "Abmelden",
+    "required": "Dieses Feld ist erforderlich."
+  },
+  "Dashboard": {
+    "menu": "Menü",
+    "home": "Startseite",
+    "analytics": "Analysen",
+    "projects": "Projekte",
+    "settings": "Einstellungen",
+    "toggleMenu": "Seitenleiste umschalten",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "switchToLight": "Zum hellen Design wechseln",
+    "switchToDark": "Zum dunklen Design wechseln"
+  }
+}

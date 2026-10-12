@@ -1,0 +1,77 @@
+@layer theme, base, antd, components, utilities;
+
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-oswald);
+
+  /* Cloud app palette */
+  --color-cloud-100: #cdd0dc;
+  --color-cloud-300: #958f9e;
+  --color-cloud-500: #665f5f;
+  --color-cloud-700: #393741;
+  --color-cloud-900: #1e1e1f;
+  --color-cloud-950: #0b0b0b;
+
+  --color-background: var(--app-background);
+  --color-surface: var(--app-surface);
+  --color-surface-raised: var(--app-surface-raised);
+  --color-border: var(--app-border);
+  --color-foreground: var(--app-foreground);
+  --color-muted: var(--app-muted);
+  --color-accent: var(--app-accent);
+  --color-accent-foreground: var(--app-accent-foreground);
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --app-background: #0b0b0b;
+    --app-surface: #1e1e1f;
+    --app-surface-raised: #393741;
+    --app-border: #393741;
+    --app-foreground: #cdd0dc;
+    --app-muted: #958f9e;
+    --app-accent: #cdd0dc;
+    --app-accent-foreground: #0b0b0b;
+  }
+
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --app-background: #f7f8fa;
+    --app-surface: #ffffff;
+    --app-surface-raised: #eef0f4;
+    --app-border: #dfe3e9;
+    --app-foreground: #202531;
+    --app-muted: #687181;
+    --app-accent: #39445c;
+    --app-accent-foreground: #ffffff;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-inter);
+    color: var(--app-foreground);
+    background-color: var(--app-background);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-oswald);
+  }
+}
+
+@layer components {
+  .ant-typography.ant-typography-h1,
+  .ant-typography.ant-typography-h2,
+  .ant-typography.ant-typography-h3,
+  .ant-typography.ant-typography-h4,
+  .ant-typography.ant-typography-h5 {
+    font-family: var(--font-oswald);
+  }
+}

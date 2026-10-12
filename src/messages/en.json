@@ -1,0 +1,30 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "languageLabel": "Language"
+  },
+  "Auth": {
+    "signInTitle": "Welcome back",
+    "signInDescription": "Sign in to your workspace.",
+    "email": "Email address",
+    "emailPlaceholder": "you@company.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "signInButton": "Sign in",
+    "invalidCredentials": "Invalid email or password.",
+    "signOut": "Sign out",
+    "required": "This field is required."
+  },
+  "Dashboard": {
+    "menu": "Menu",
+    "home": "Home",
+    "analytics": "Analytics",
+    "projects": "Projects",
+    "settings": "Settings",
+    "toggleMenu": "Toggle sidebar",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme"
+  }
+}

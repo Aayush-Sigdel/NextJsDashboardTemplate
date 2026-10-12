@@ -14,11 +14,11 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The locale proxy redirects to `/en` or `/de` based on the request language.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The supported locales and default locale are in `src/i18n/routing.ts`. Add translations to `src/messages/en.json` and `src/messages/de.json`, then use `useTranslations` from `next-intl` in components. The example page is `src/app/[locale]/page.tsx`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The `dev`, `build`, and `start` scripts set Node.js's maximum V8 heap size to 2048 MB. This limits the JavaScript heap, not the total RAM used by Next.js and its child processes.
 
 ## Learn More
 
